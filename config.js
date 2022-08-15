@@ -1,6 +1,6 @@
 const CONFIG = {
     titleWeb: "NMT",
-    introTitle: 'Ng Minh Thư',
+    introTitle: 'Ng Gia Huy',
     introDesc: `Trái đất vốn lạ thường
     Mà sao em cứ đi nhầm đường
     Lạc vào tim anh lẻ loi
