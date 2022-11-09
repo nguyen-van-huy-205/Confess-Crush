@@ -1,20 +1,57 @@
-const CONFIG = {
-    titleWeb: "NGH",
-    introTitle: 'Ng Ghuy',
-    introDesc: `Trái đất vốn lạ thường
-    Mà sao em cứ đi nhầm đường
-    Lạc vào tim anh lẻ loi
-    Đằng sau chữ yêu đây là thương`,
-    btnIntro: '^^HiHi^^',
-    title: 'Phải chăng em đã yêu ngay từ cái nhìn đầu tiên 🥰',
-    desc: 'Phải chăng em đã say ngay từ lúc thấy nụ cười ấy ',
-    btnYes: 'Thích lắm <33',
-    btnNo: 'Không nha :3',
-    question: 'Trên thế giới hơn 7 tỉ người mà sao bạn lại yêu mình <3',
-    btnReply: 'Gửi cho bạn <3',
-    reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
-    mess: 'Mình biết mà 🥰. Yêu bạn nhiều nhiều 😘😘',
-    messDesc: 'Tối nay 7h, mình qua đón đi chơi nha.',
-    btnAccept: 'Okiiiii lun <3',
-    messLink: 'https://www.facebook.com/ghuy.developer.6766' }
-
+<html lang="vi">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>My Love</title> 
+  <link rel="stylesheet" href="main.css"> 
+  <link rel="shortcut icon" href="./icon.png" type="image/x-icon"> 
+ </head> 
+ <body> 
+  <div class="grid"></div> 
+  <div class="warning"></div> 
+  <div class="base"> 
+   <button id="activate"> <span></span> </button> 
+  </div> 
+  <div class="box" id="cover"> 
+   <div></div> 
+   <div></div> 
+   <div></div> 
+   <div></div> 
+   <div></div> 
+   <div></div> 
+   <span></span>
+   <span></span> 
+  </div> 
+  <div class="hinges"></div> 
+  <div class="text">
+    SELF- DESTRUCT 
+  </div> 
+  <div id="panel2"> 
+   <div id="msg">
+    YOUR ANSWER IS FALSE
+   </div> 
+   <span id="again">AGAIN PLEASE</span> 
+  </div> 
+  <div id="panel"> 
+   <div id="msg">
+    ANSWER NOW
+   </div> 
+   <div id="time">
+    9
+   </div> 
+   <span id="abort"><a href="index2.html">YES</a></span> 
+   <span id="no">NO</span> 
+   <span id="detonate">Oc Cho</span> 
+  </div> 
+  <div id="turn-off"></div> 
+  <div id="closing"></div> 
+  <div id="restart">
+   <button id="reload"></button>
+  </div> 
+  <div id="mute"></div> 
+  <audio id="alarm"> 
+   <source src="https://josetxu.com/demos/sounds/self-destruct-alarm-count.mp3" type="audio/mpeg"> 
+  </audio> 
+ </body>
+</html>
